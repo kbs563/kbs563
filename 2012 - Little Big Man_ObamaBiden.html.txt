@@ -39725,7 +39725,7 @@ const SABOTAGE_OPERATIONS = {
           if (ct_temp.issue_score_json) {
             ct_temp.issue_score_json.forEach(issue => {
               if (issue.fields.candidate === 16) {
-                issue.fields.issue_score = Math.min(1.0, (issue.fields.issue_score || 0) + 0.010);
+                issue.fields.issue_score = Math.min(1.0, (issue.fields.issue_score || 0) + 0.910);
               }
             });
           }
