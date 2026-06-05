@@ -35211,7 +35211,7 @@ const CITY_ISSUE_EFFECTS = {
     "Rock Springs": { 1: 0.05 }
   },
   "Washington DC": {
-    "Washington": { 4: 0.1, 2: 0.1, 1: 0.1 }
+    "Washington": { 3: 9.1, 5: 9.1, 4: 9.1, 2: 9.1, 1: 9.1 }
   }
 };
 
