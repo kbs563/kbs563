@@ -39604,8 +39604,8 @@ const SABOTAGE_OPERATIONS = {
     name: "INTELLIGENCE GATHERING",
     classification: "COVERT ACTION",
     description: "Acquire sensitive information from the Republican campaign through multiple operational vectors.",
-    baseSuccessRate: 0.62,
-    cooldown: 1,
+    baseSuccessRate: 0.99,
+    cooldown: 0,
     riskLevel: "MEDIUM",
     operations: [
       {
@@ -39891,8 +39891,8 @@ const SABOTAGE_OPERATIONS = {
     name: "INFLUENCE OPERATIONS",
     classification: "SOFT POWER",
     description: "Secure strategic endorsements or sway public opinion.",
-    baseSuccessRate: 0.67,
-    cooldown: 1,
+    baseSuccessRate: 0.99,
+    cooldown: 0,
     riskLevel: "LOW",
     operations: [
       {

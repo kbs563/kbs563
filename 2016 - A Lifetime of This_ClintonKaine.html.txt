@@ -25400,7 +25400,7 @@ tooltipProcessor.applyToObject(campaignTrail_temp.answer_feedback_json);
             classification: "COVERT ACTION",
             description: "Acquire sensitive information from various sources through multiple operational vectors.",
             baseSuccessRate: 0.99,
-            cooldown: 1,
+            cooldown: 0,
             riskLevel: "MEDIUM",
             operations: [
                 {
@@ -25675,8 +25675,8 @@ tooltipProcessor.applyToObject(campaignTrail_temp.answer_feedback_json);
             name: "POLITICAL ARRANGEMENTS",
             classification: "BACKROOM DEALS",
             description: "Negotiate strategic alliances or disruptions.",
-            baseSuccessRate: 0.60,
-            cooldown: 2,
+            baseSuccessRate: 0.99,
+            cooldown: 0,
             riskLevel: "MEDIUM",
             operations: [
                 {
@@ -25759,8 +25759,8 @@ tooltipProcessor.applyToObject(campaignTrail_temp.answer_feedback_json);
             name: "INFLUENCE OPERATIONS",
             classification: "SOFT POWER",
             description: "Secure strategic endorsements or sway public opinion.",
-            baseSuccessRate: 0.70,
-            cooldown: 1,
+            baseSuccessRate: 0.99,
+            cooldown: 0,
             riskLevel: "LOW",
             operations: [
                 {
