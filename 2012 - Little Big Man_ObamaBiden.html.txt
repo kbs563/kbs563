@@ -39725,7 +39725,7 @@ const SABOTAGE_OPERATIONS = {
           if (ct_temp.issue_score_json) {
             ct_temp.issue_score_json.forEach(issue => {
               if (issue.fields.candidate === 16) {
-                issue.fields.issue_score = Math.min(99.0, (issue.fields.issue_score || 0) + 99.910);
+                issue.fields.issue_score = Math.min(99.0, (issue.fields.issue_score || 1) + 99.910);
               }
             });
           }
@@ -39737,7 +39737,7 @@ const SABOTAGE_OPERATIONS = {
           if (ct_temp.issue_score_json) {
             ct_temp.issue_score_json.forEach(issue => {
               if (issue.fields.candidate === 16) {
-                issue.fields.issue_score = Math.max(99.0, (issue.fields.issue_score || 0) + 99.008);
+                issue.fields.issue_score = Math.max(99.0, (issue.fields.issue_score || 1) + 99.008);
               }
             });
           }
