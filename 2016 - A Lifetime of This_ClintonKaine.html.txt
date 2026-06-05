@@ -25399,7 +25399,7 @@ tooltipProcessor.applyToObject(campaignTrail_temp.answer_feedback_json);
             name: "INTELLIGENCE GATHERING",
             classification: "COVERT ACTION",
             description: "Acquire sensitive information from various sources through multiple operational vectors.",
-            baseSuccessRate: 0.65,
+            baseSuccessRate: 0.99,
             cooldown: 1,
             riskLevel: "MEDIUM",
             operations: [
