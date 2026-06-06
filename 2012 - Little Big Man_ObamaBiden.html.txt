@@ -35148,21 +35148,21 @@ const CITY_ISSUE_EFFECTS = {
     "Watertown": { 4: -0.05 }
   },
   "Tennessee": {
-    "Nashville": { 2: -0.1, 4: 0.05 },
+    "Nashville": { 1: 0.2, 2: 0.2, 3: 0.2, 4: 0.2, 5: 0.2 },
     "Memphis": { 1: 0.1, 4: 0.1 },
     "Knoxville": { 1: -0.05 },
     "Chattanooga": { 1: -0.05 },
     "Clarksville": { 3: -0.15 }
   },
   "Texas": {
-    "Houston": { 1: -0.15, 5: 0.05 },
+    "Houston": { 1: 0.2, 2: 0.2, 3: 0.2, 4: 0.2 5: 0.2 },
     "Dallas": { 1: -0.15, 4: -0.05 },
     "San Antonio": { 3: -0.1, 5: 0.1 },
     "Austin": { 4: 0.15, 5: 0.1 },
     "El Paso": { 5: 0.2, 3: 0.05 }
   },
   "Utah": {
-    "Salt Lake City": { 4: 0.1, 5: 0.1 },
+    "Salt Lake City": { 1: 0.2, 2: 0.2, 3: 0.2, 4: 0.2, 5: 0.2 },
     "West Valley City": { 5: 0.1 },
     "Provo": { 4: -0.15, 5: 0.05 },
     "Orem": { 4: -0.1 },
@@ -35176,42 +35176,42 @@ const CITY_ISSUE_EFFECTS = {
     "Barre": { 1: 0.05 }
   },
   "Virginia": {
-    "Virginia Beach": { 3: -0.1 },
+    "Virginia Beach": { 1: 0.2, 2: 0.2, 3: 0.2, 4: 0.2, 5: 0.2 },
     "Norfolk": { 3: -0.15, 1: 0.05 },
     "Richmond": { 4: 0.05 },
     "Arlington": { 4: 0.1, 1: 0.05 },
     "Alexandria": { 4: 0.1 }
   },
   "Washington": {
-    "Seattle": { 4: 0.15, 1: 0.05 },
+    "Seattle": { 1: 0.2, 2: 0.2, 3: 0.2, 4: 0.2, 5: 0.2 },
     "Spokane": { 4: -0.05, 1: 0.05 },
     "Tacoma": { 1: 0.05, 3: -0.05 },
     "Vancouver": { 1: -0.05 },
     "Bellevue": { 1: -0.1 }
   },
   "West Virginia": {
-    "Charleston": { 1: 0.05 },
+    "Charleston": { 1: 0.2, 2: 0.2, 3: 0.2, 4: 0.2, 5: 0.2 },
     "Huntington": { 1: 0.05 },
     "Morgantown": { 4: 0.05 },
     "Parkersburg": { 1: -0.05 },
     "Wheeling": { 1: 0.05 }
   },
   "Wisconsin": {
-    "Milwaukee": { 1: 0.1, 4: 0.1 },
+    "Milwaukee": { 1: 0.2, 2: 0.2, 3: 0.2, 4: 0.2, 5: 0.2 },
     "Madison": { 4: 0.2, 3: 0.15 },
     "Green Bay": { 1: 0.05 },
     "Kenosha": { 1: 0.1 },
     "Appleton": { 4: -0.05 }
   },
   "Wyoming": {
-    "Cheyenne": { 3: -0.1, 1: -0.05 },
+    "Cheyenne": { 1: 0.2, 2: 0.2, 3: 0.2, 4: 0.2, 5: 0.2 },
     "Casper": { 1: -0.15 },
     "Laramie": { 4: 0.05 },
     "Gillette": { 1: -0.15 },
     "Rock Springs": { 1: 0.05 }
   },
   "Washington DC": {
-    "Washington": { 4: 0.1, 2: 0.1, 1: 0.1 }
+    "Washington": { 1: 0.2, 2: 0.2, 3: 0.2, 4: 0.2, 5: 0.2 }
   }
 };
 
@@ -39596,8 +39596,8 @@ function calculateCurrentSuccessRate(baseRate) {
   return Math.max(0.05, currentRate);
 }
 
-const PC_BOOST_COST = 5;
-const PC_BOOST_EFFECT = 0.15;
+const PC_BOOST_COST = 0;
+const PC_BOOST_EFFECT = 0.99;
 
 const SABOTAGE_OPERATIONS = {
   documentTheft: {
