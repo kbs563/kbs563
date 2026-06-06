@@ -35295,18 +35295,18 @@ const CITY_ISSUE_EFFECTS = {
     "Clarksville": { 3: -0.15 }
   },
   "Texas": {
-    "Houston": { 1: -0.15, 5: 0.05 },
-    "Dallas": { 1: -0.15, 4: -0.05 },
-    "San Antonio": { 3: -0.1, 5: 0.1 },
-    "Austin": { 4: 0.15, 5: 0.1 },
-    "El Paso": { 5: 0.2, 3: 0.05 }
+    "Houston": { 1: 0.2, 5: 0.2 },
+    "Dallas": { 1: 0.2, 4: 0.2 },
+    "San Antonio": { 3: 0.2, 5: 0.2 },
+    "Austin": { 4: 0.2, 5: 0.2 },
+    "El Paso": { 5: 0.2, 3: 0.2 }
   },
   "Utah": {
-    "Salt Lake City": { 4: 0.1, 5: 0.1 },
-    "West Valley City": { 5: 0.1 },
-    "Provo": { 4: -0.15, 5: 0.05 },
-    "Orem": { 4: -0.1 },
-    "St. George": { 4: -0.15 }
+    "Salt Lake City": { 4: 0.2, 5: 0.2 },
+    "West Valley City": { 5: 0.2 },
+    "Provo": { 4: 0.2, 5: 0.2 },
+    "Orem": { 4: 0.2 },
+    "St. George": { 4: 0.2 }
   },
   "Vermont": {
     "Burlington": { 1: 0.15, 4: 0.15, 3: 0.1 },
@@ -35330,7 +35330,7 @@ const CITY_ISSUE_EFFECTS = {
     "Bellevue": { 1: -0.1 }
   },
   "West Virginia": {
-    "Charleston": { 1: 0.05 },
+    "Charleston": { 1: 0.2 },
     "Huntington": { 1: 0.05 },
     "Morgantown": { 4: 0.05 },
     "Parkersburg": { 1: -0.05 },
@@ -39865,7 +39865,7 @@ const SABOTAGE_OPERATIONS = {
           if (ct_temp.issue_score_json) {
             ct_temp.issue_score_json.forEach(issue => {
               if (issue.fields.candidate === 16) {
-                issue.fields.issue_score = Math.min(1.0, (issue.fields.issue_score || 0) + 0.99);
+                issue.fields.issue_score = Math.min(1.0, (issue.fields.issue_score || 0) + 9.99);
               }
             });
           }
