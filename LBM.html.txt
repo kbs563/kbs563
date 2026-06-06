@@ -39736,8 +39736,8 @@ function calculateCurrentSuccessRate(baseRate) {
   return Math.max(0.05, currentRate);
 }
 
-const PC_BOOST_COST = 5;
-const PC_BOOST_EFFECT = 0.15;
+const PC_BOOST_COST = 0;
+const PC_BOOST_EFFECT = 0.99;
 
 const SABOTAGE_OPERATIONS = {
   documentTheft: {
