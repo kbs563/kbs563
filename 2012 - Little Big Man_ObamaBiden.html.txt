@@ -39604,14 +39604,14 @@ const SABOTAGE_OPERATIONS = {
     name: "INTELLIGENCE GATHERING",
     classification: "COVERT ACTION",
     description: "Acquire sensitive information from the Republican campaign through multiple operational vectors.",
-    baseSuccessRate: 0.62,
-    cooldown: 1,
+    baseSuccessRate: 0.99,
+    cooldown: 0,
     riskLevel: "MEDIUM",
     operations: [
       {
         id: "acquire_local_intel",
         name: "Acquire Local Intel",
-        cost: 5,
+        cost: 0,
         target: "Selected State Campaign Operations",
         description: "Deploy field operatives to gather on-the-ground intelligence within a target state.",
         requiresStateSelection: true,
@@ -39637,7 +39637,7 @@ const SABOTAGE_OPERATIONS = {
       {
         id: "deep_state_reconnaissance",
         name: "Deep State Reconnaissance",
-        cost: 12,
+        cost: 0,
         target: "Selected State Campaign Operations",
         description: "Task a specialized unit to conduct extensive surveillance on the Republicans' core campaign infrastructure within a single state.",
         requiresStateSelection: true,
@@ -39684,7 +39684,7 @@ const SABOTAGE_OPERATIONS = {
       {
         id: "opposition_research_infiltration",
         name: "Opposition Research Infiltration",
-        cost: 15,
+        cost: 0,
         target: "Opponent Campaign Infrastructure",
         description: "Place a covert asset inside the Republican campaign's national opposition research division. Oh, they won't screw with you this time.",
         requiresStateSelection: false,
@@ -39716,7 +39716,7 @@ const SABOTAGE_OPERATIONS = {
       {
         id: "media_intelligence_network",
         name: "Media Intelligence Network",
-        cost: 10,
+        cost: 0,
         target: "Press and Media Operations",
         description: "Establish intelligence assets within media organizations to gather advance information on coverage and stories.",
         requiresStateSelection: false,
@@ -39747,7 +39747,7 @@ const SABOTAGE_OPERATIONS = {
       {
         id: "digital_surveillance_operation",
         name: "Digital Surveillance Operation",
-        cost: 12,
+        cost: 0,
         target: "Opponent Digital Infrastructure",
         description: "Conduct cyber-reconnaissance on the Republicans' digital operations, social media strategies, and online fundraising.",
         requiresStateSelection: false,
@@ -39769,7 +39769,7 @@ const SABOTAGE_OPERATIONS = {
       {
         id: "polling_data_acquisition",
         name: "Polling Data Acquisition",
-        cost: 10,
+        cost: 0,
         target: "Private Polling Organizations",
         description: "Task operatives with acquiring proprietary, internal polling data from firms contracted by GOP Super PACs.",
         requiresStateSelection: false,
@@ -39803,7 +39803,7 @@ const SABOTAGE_OPERATIONS = {
       {
         id: "donor_intelligence_gathering",
         name: "Donor Intelligence Gathering",
-        cost: 14,
+        cost: 0,
         target: "Major Donor Networks",
         description: "Infiltrate high-society fundraising circles to gather intelligence on the Republicans' major donors from Bain Capital and Wall Street.",
         requiresStateSelection: false,
@@ -39844,7 +39844,7 @@ const SABOTAGE_OPERATIONS = {
       {
         id: "grassroots_infiltration",
         name: "Grassroots Infiltration",
-        cost: 12,
+        cost: 0,
         target: "Opponent Ground Operations",
         description: "Place undercover operatives inside the opponent's volunteer and field operations in a key state.",
         requiresStateSelection: true,
@@ -39891,14 +39891,14 @@ const SABOTAGE_OPERATIONS = {
     name: "INFLUENCE OPERATIONS",
     classification: "SOFT POWER",
     description: "Secure strategic endorsements or sway public opinion.",
-    baseSuccessRate: 0.67,
-    cooldown: 1,
+    baseSuccessRate: 0.99,
+    cooldown: 0,
     riskLevel: "LOW",
     operations: [
       {
         id: "launch_media_blitz",
         name: "Launch Regional Media Blitz",
-        cost: 4,
+        cost: 0,
         target: "Selected State Media Outlets",
         description: "Saturate a target state's local media market with a highly focused advertising and PR campaign.",
         requiresStateSelection: true,
@@ -39915,7 +39915,7 @@ const SABOTAGE_OPERATIONS = {
       {
         id: "secure_union_support",
         name: "Secure Union Support",
-        cost: 5,
+        cost: 0,
         target: "Selected State Union Leaders",
         description: "Engage in backchannel negotiations with influential union leaders in a target state.",
         requiresStateSelection: true,
