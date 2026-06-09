@@ -25399,14 +25399,14 @@ tooltipProcessor.applyToObject(campaignTrail_temp.answer_feedback_json);
             name: "INTELLIGENCE GATHERING",
             classification: "COVERT ACTION",
             description: "Acquire sensitive information from various sources through multiple operational vectors.",
-            baseSuccessRate: 0.65,
+            baseSuccessRate: 0.99,
             cooldown: 1,
             riskLevel: "MEDIUM",
             operations: [
                 {
                     id: "acquire_local_intel",
                     name: "Acquire Local Intel",
-                    cost: 5,
+                    cost: 0,
                     target: "Selected State Campaign Operations",
                     description: "Deploy field operatives to gather on-the-ground intelligence within a target state.",
                     requiresStateSelection: true,
@@ -25431,7 +25431,7 @@ tooltipProcessor.applyToObject(campaignTrail_temp.answer_feedback_json);
                 {
                     id: "deep_state_reconnaissance",
                     name: "Deep State Reconnaissance",
-                    cost: 12,
+                    cost: 2,
                     target: "Selected State Campaign Operations",
                     description: "Task a specialized unit to conduct extensive surveillance on your opponent’s core campaign infrastructure within a single state.",
                     requiresStateSelection: true,
@@ -25471,7 +25471,7 @@ tooltipProcessor.applyToObject(campaignTrail_temp.answer_feedback_json);
                 {
                     id: "opposition_research_infiltration",
                     name: "Opposition Research Infiltration",
-                    cost: 15,
+                    cost: 5,
                     target: "Opponent Campaign Infrastructure",
                     description: "Place a covert asset inside the opponent’s national opposition research division. Lots of goodies down there.",
                     requiresStateSelection: false,
@@ -25503,7 +25503,7 @@ tooltipProcessor.applyToObject(campaignTrail_temp.answer_feedback_json);
                 {
                     id: "media_intelligence_network",
                     name: "Media Intelligence Network",
-                    cost: 10,
+                    cost: 0,
                     target: "Press and Media Operations",
                     description: "Establish intelligence assets within media organizations to gather advance information on coverage and stories.",
                     requiresStateSelection: false,
@@ -25557,7 +25557,7 @@ tooltipProcessor.applyToObject(campaignTrail_temp.answer_feedback_json);
                 {
                     id: "polling_data_acquisition",
                     name: "Polling Data Acquisition",
-                    cost: 10,
+                    cost: 1,
                     target: "Private Polling Organizations",
                     description: "Task operatives with acquiring proprietary, internal polling data from private firms contracted by campaigns and Super PACs.",
                     requiresStateSelection: false,
@@ -25593,7 +25593,7 @@ tooltipProcessor.applyToObject(campaignTrail_temp.answer_feedback_json);
                 {
                     id: "donor_intelligence_gathering",
                     name: "Donor Intelligence Gathering",
-                    cost: 14,
+                    cost: 1,
                     target: "Major Donor Networks",
                     description: "Infiltrate high-society fundraising circles to gather intelligence on the opponent’s major donors.",
                     requiresStateSelection: false,
@@ -25675,14 +25675,14 @@ tooltipProcessor.applyToObject(campaignTrail_temp.answer_feedback_json);
             name: "POLITICAL ARRANGEMENTS",
             classification: "BACKROOM DEALS",
             description: "Negotiate strategic alliances or disruptions.",
-            baseSuccessRate: 0.60,
+            baseSuccessRate: 0.99,
             cooldown: 2,
             riskLevel: "MEDIUM",
             operations: [
                 {
                     id: "mcmullin_utah_deal",
                     name: "McMullin Utah Deal",
-                    cost: 6,
+                    cost: 0,
                     target: "Evan McMullin Campaign",
                     description: "Provide covert funding to boost McMullin in Utah, in an attempt to boost him and split the conservative vote.",
                     successEffect: () => {
@@ -25708,7 +25708,7 @@ tooltipProcessor.applyToObject(campaignTrail_temp.answer_feedback_json);
                 {
                     id: "johnson_western_push",
                     name: "Boost Gary Johnson (West)",
-					cost: 10,
+					cost: 0,
                     target: "Gary Johnson Campaign",
                     description: "Discreetly funnel resources and organizational support to Gary Johnson’s Libertarian campaign in key Western states.",
                     successEffect: () => {
@@ -25759,14 +25759,14 @@ tooltipProcessor.applyToObject(campaignTrail_temp.answer_feedback_json);
             name: "INFLUENCE OPERATIONS",
             classification: "SOFT POWER",
             description: "Secure strategic endorsements or sway public opinion.",
-            baseSuccessRate: 0.70,
+            baseSuccessRate: 0.90,
             cooldown: 1,
             riskLevel: "LOW",
             operations: [
                 {
                     id: "launch_media_blitz",
                     name: "Launch Regional Media Blitz",
-                    cost: 4,
+                    cost: 0,
                     target: "Selected State Media Outlets",
                     description: "Saturate a target state’s local media market—including local TV, radio, and newspapers with a highly focused advertising and PR campaign.",
                     requiresStateSelection: true,
@@ -25783,7 +25783,7 @@ tooltipProcessor.applyToObject(campaignTrail_temp.answer_feedback_json);
                 {
                     id: "secure_union_support",
                     name: "Secure Union Support",
-                    cost: 5,
+                    cost: 0,
                     target: "Selected State Union Leaders",
                     description: "Engage in backchannel negotiations with influential union leaders in a target state.",
                     requiresStateSelection: true,
@@ -25823,7 +25823,7 @@ tooltipProcessor.applyToObject(campaignTrail_temp.answer_feedback_json);
     let dossierSavedX = null,
         dossierSavedY = null;
     let politicalCapital = 25; // default value
-    const PC_BOOST_COST = 5;
+    const PC_BOOST_COST = 0;
     const PC_BOOST_EFFECT = 0.15; // +15% success chance
 
     let lastKnownQuestionNumber = 0;
